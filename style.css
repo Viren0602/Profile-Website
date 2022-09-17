@@ -1,0 +1,62 @@
+header{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    font-family: cursive;
+    height: 200px;
+}
+#image{
+   
+    position: absolute;
+    right: 26px;
+    top: 34px; 
+    left: 1200px;
+}
+h3{
+    color: darkblue; 
+    font-family: cursive;
+    height: 40px;
+}
+#contact{
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    right: 26px;
+    top: 100px;
+    left: 20px; 
+    
+}
+h6{
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    right: 26px;
+    top: 100px;
+    left: 20px; 
+    
+}
+
+body{
+    background-color: darkgoldenrod;
+}
+
+a{
+    text-decoration: none;
+}
+
+.edu li{
+    transition: 1s;
+
+}
+
+.skills li{
+    transition: 1s;
+
+}
+
+li:hover{
+    /* background-color: cornflowerblue; */
+    transform: translateX(20px);
+}
